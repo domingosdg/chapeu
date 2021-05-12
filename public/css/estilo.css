@@ -1,0 +1,180 @@
+body {
+    width: 95%;
+    max-width: 811px;
+    margin: auto;
+    background: url(images/background.jpeg) center;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    
+  }
+  img {
+    height: 110px;
+    width: 110px;
+    margin-top: 20px;
+  }
+  main {
+    padding: 5px 40px;
+    margin-top: 20px;
+    border-radius: 10px;  
+  }
+  .logo,
+  .texto {
+    text-align: center;
+    margin: 0;
+    color: #9b1a1a;
+  }
+
+  .titulo,
+  .lema{
+    text-align: center;
+    margin: 0;
+    color: #000000;
+  }
+ 
+  .shows {
+    background: #000000;
+    padding: 10px;
+    margin-left: 266px;
+    width: 177px;
+    height: 111px;
+    text-align: center;
+    
+  }
+  
+  .jo {
+    background: #000000;
+    width: 177px;
+    margin-top: -133px;
+    height: 133px;
+    margin-left: 2px;
+    text-align: center;
+    
+
+    
+   
+    
+   
+    
+  }
+
+  .jk {
+    background: #A7C0DC;
+    margin-right: 2px;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    margin: 0;
+    color: #000000;
+   
+    
+  }
+
+  /*    Formulario */
+
+
+
+  #area
+  {
+    position:relative;
+    left:68%;
+    top:-388px;
+    width:288px;
+    height:188px;
+    
+  }
+  #area #formulario
+  {
+    position:absolute;
+    display:block;
+  }
+  
+  
+  fieldset
+  {
+    background-color:#A7C0DC;
+    width:111px;
+    border-radius: 10px;
+    height:188px;
+  }
+  legend
+  {
+    font-weight:bold;
+    border-radius: 10px;
+    font-family: "Segoe UI","Arial","Times New Roman";
+  }
+  #formulario label
+  {
+    position:absolute;
+    left:19px;
+    margin-right:5px;
+  }
+  #formulario input.campo_nome
+  {
+    
+    position:absolute;
+    left:12px;
+    top:30px;
+    width:111px;
+    border-radius: 10px;
+    background-color:#ffff;
+  }
+  #formulario input.campo_sobnome
+  {
+    background-color:#ffff;
+    border-radius: 10px;
+    position:absolute;
+    left:12px;
+    top:60px;
+    width:111px;
+  }
+  #formulario input.campo_email
+  {
+    background-color:#ffff;
+    position:absolute;
+    left:12px;
+    top:88px;
+    margin-top:2px;
+    width:111px;
+    border-radius: 10px;
+  }
+  #formulario textarea.msg
+  {
+    
+    position:absolute;
+    left:12px;
+    top:120px;
+    background-color:#ffff;
+    width: 113px;
+    height: 45px;
+    border-radius: 10px;
+  }
+  
+  
+  
+  
+  
+  #formulario input.btn_submit
+  {
+    
+    border-radius: 10px;
+    border-style:dashed;
+    position:absolute;
+    bottom: 0.5em;
+    background-color:#ffff;
+  }
+  
+
+
+
+
+
+
+
+
+  .footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
