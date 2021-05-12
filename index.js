@@ -43,6 +43,6 @@ app.post('/' ,function(req,res){
 
 app.use(express.static('./app/public'));
 
-app.listen(3333,function(){
+app.listen(process.env.PORT || 3333,function(){
     console.log("Serdor rodando na url localhost://3333");
 });
